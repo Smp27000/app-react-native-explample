@@ -1,0 +1,26 @@
+useEffect es lo que se usa para ejecutar funciones despues de que el componente se renderiza o actualiza y en las [] de al final de pone que variable quieres que se actualice.
+
+UseState es lo que se usa para manejar el estado de un componente estrctira "const [Nombre del componente, nombre de variable que se puede cambiar] = useState(valor inicial)"
+
+Asyncstorage es una variable que se usa para guardar datos de forma local con setItem y su estructura es "asyncStorage.setItem("@Clave", Valor)" y para llamarlo o leerlo se usa "Asyncstorage.getItem("@valor")"
+
+El componente Fltlist recibe los valores con "data = { y los datos que va a recibir}" y "rederizeItem = { va a recibir el item, renderizaitem}"
+
+.Then se usa para las APIS porque al finalizar un async/await nos va a permitir hacer una funcion segun termine el anterior
+
+la estructura de un proyecto en react native es que en la carpeta src se hacen las funciones y su funcionamiento para despues llmarse en app con la extension .js
+
+Tabs son los botones inferiores en una aplicacion mobile, se componen por:
+<Tabs>
+
+</Tabs>
+
+Slot lo que hace es "heredar" el diseño de otro archivo, pieniendolo en la pagina, principalmente se usa en el index o main
+
+con fetch se puede obtener la informacion de la api aunque uno la tiene que despues pasar a .JSON y tambien encapsular la informacion en una variable (No cometer el mismo error de pendejo)
+
+.then es una especie de promesa que si o si te hara algo cuando el fech funcione, principalmente usalo para guardar la informacion o ya hacer lo que quieras
+
+Si cuando se llama una funcion se utilizan los () es que se va ejecutar de una se van a dar los parametros con una especie de if 
+
+payload en el inspeccionar es lo que mandamos en la network para la api
